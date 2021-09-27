@@ -1,0 +1,1 @@
+cmd_/root/LinuxProject1_bonus/fixmap.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /root/LinuxProject1_bonus/fixmap.ko /root/LinuxProject1_bonus/fixmap.o /root/LinuxProject1_bonus/fixmap.mod.o
